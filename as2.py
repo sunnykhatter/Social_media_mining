@@ -15,10 +15,10 @@ import ast
 
 #login function containing consumer key.
 def oauth_login():    
-    CONSUMER_KEY = 'Qhw9SmyDS4ugTSYLmPBPUqebc'
-    CONSUMER_SECRET = '76PTSiepUdaphQls5t2teDTY5TPlTldQF6gZrP9YIexTwGasic'
-    OAUTH_TOKEN = '24551258-jFooCTHzfbacGH5xrPDHWRBm38aHdaqgfk3DEl5yN'
-    OAUTH_TOKEN_SECRET = 'PAJx2Uft2UinVF0Bcwy4dFk5OPUSl46sXq7hfKYdWYHSp'
+    CONSUMER_KEY = ''
+    CONSUMER_SECRET = ''
+    OAUTH_TOKEN = ''
+    OAUTH_TOKEN_SECRET = ''
     auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET)   
     twitter_api = twitter.Twitter(auth=auth)
     return twitter_api
